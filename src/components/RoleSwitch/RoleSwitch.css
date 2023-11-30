@@ -1,0 +1,13 @@
+.role-switch {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+input {
+  width: calc(2vmin);
+  height: 20px;
+  margin-top: 10px;
+}
+label {
+  margin-right: 20px;
+}

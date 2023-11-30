@@ -1,0 +1,24 @@
+button {
+  background: none;
+  border: none;
+}
+.folder__container {
+  display: flex;
+}
+.folder__container__wrapper {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.folder__icon-button svg {
+  width: 25px;
+  height: 25px;
+}
+.folder__container > button {
+  padding: 0;
+}
+svg {
+  color: #fff;
+}

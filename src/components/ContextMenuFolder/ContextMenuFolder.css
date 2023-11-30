@@ -1,0 +1,23 @@
+.context-menu {
+  display: flex;
+  margin-top: calc(0.5vmin);
+}
+.context-menu__add {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+.context-menu__add input {
+  width: 100%;
+  height: calc(2vmin);
+  margin-top: 0;
+}
+.context-menu__add button {
+  padding: 3px;
+  margin-left: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.context-menu > button:disabled svg {
+  color: #0075ff;
+}
